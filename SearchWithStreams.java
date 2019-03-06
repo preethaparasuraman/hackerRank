@@ -15,8 +15,8 @@ public class SearchWithStreams {
     public static void main(String[] args) {
         Node root = Node.createTree();
 
-        System.out.println("Nodes by DFS: ".concat(root.searchByDepth().toString()));
-        System.out.println("Nodes by BFS: ".concat(root.searchByBreadth().toString()));
+        System.out.println("DFS Nodes: ".concat(root.searchByDepth().toString()));
+        System.out.println("BFS Nodes: ".concat(root.searchByBreadth().toString()));
     }
 
 }
